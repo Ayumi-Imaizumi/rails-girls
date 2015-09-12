@@ -19,3 +19,5 @@
  th { border-bottom: 1px solid #DDD;padding:0 0 5px;}
  td {padding: 5px;}
 .idea-photo {border:1px #ccc solid;}
+a.btn-danger,a.btn-primary {color:#fff}
+a.btn-primary {padding:10px 20px;font-size:20px;}
