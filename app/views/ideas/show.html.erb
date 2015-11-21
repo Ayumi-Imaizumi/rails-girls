@@ -15,5 +15,10 @@
   <%= image_tag(@idea.picture_url, width: 600) if @idea.picture.present? %>
 </p>
 
+<p>
+  <strong>User Name:</strong>
+  <%= @idea.user_name %>
+</p>
+
 <%= link_to 'Edit', edit_idea_path(@idea) %> |
 <%= link_to 'Back', ideas_path %>
